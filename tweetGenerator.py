@@ -13,10 +13,10 @@ from functools import reduce
 from math import exp
 
 #Set here the file from which the grammar productions are loaded
-RULES_FILE = "customrules/fulvio2.json"
+RULES_FILE = "rules.json"
 
 #Some constants
-MAX_LENGTH = 3000
+MAX_LENGTH = 300
 MIN_LENGTH = 10
 MAX_RECURSION_DEPTH = 30
 
@@ -72,7 +72,7 @@ def stringValidate(stringArray):
         if type(elem) == dict:
             return False
     string = stringGenerate(stringArray)
-    if len(string) < MIN_LENGTH or len(string) > MAX_LENGTH:
+    if len(string) < MIN_LENGTH or len(string) >= MAX_LENGTH:
         return False
     return string
 
@@ -130,4 +130,4 @@ def printInfo():
 
 #printInfo()
 #print(generate())
-debugGenerate()
+#debugGenerate()
