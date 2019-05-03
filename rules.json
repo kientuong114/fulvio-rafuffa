@@ -1,0 +1,2345 @@
+{
+        "rules": {
+                "S": [
+                        {
+                                "production": [
+                                        {
+                                                "non_term": "Intro"
+                                        },
+                                        " ",
+                                        {
+                                                "non_term": "Cont"
+                                        },
+                                        " ",
+                                        {
+                                                "non_term": "Finale"
+                                        }
+                                ],
+                                "type": "nonfinal"
+                        }
+                ],
+                "Intro": [
+                        {
+                                "production": [
+                                        "Ormai il mercato \u00e8 saturo, \u00e8 tempo di ",
+                                        {
+                                                "non_term": "nome_di_prodotto"
+                                        },
+                                        "!"
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "Una nuova generazione di esperienze sta arrivando, vi presento ",
+                                        {
+                                                "non_term": "nome_di_prodotto"
+                                        },
+                                        "."
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "Io e ",
+                                        {
+                                                "non_term": "azienda"
+                                        },
+                                        " annunceremo il nostro primo ",
+                                        {
+                                                "non_term": "tipo_di_prodotto"
+                                        },
+                                        ". Si chiamer\u00e0 ",
+                                        {
+                                                "non_term": "nome_di_prodotto"
+                                        },
+                                        "."
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "Comincia per me un nuovo progetto triennale, ma non sar\u00f2 da solo: in questo viaggio mi acompagner\u00e0 ",
+                                        {
+                                                "non_term": "azienda"
+                                        },
+                                        " per produrre ",
+                                        {
+                                                "non_term": "nome_di_prodotto"
+                                        },
+                                        "."
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "Sappiamo bene che ormai qualsiasi ",
+                                        {
+                                                "non_term": "nazionalita_M"
+                                        },
+                                        " possiede un ",
+                                        {
+                                                "non_term": "oggetto"
+                                        },
+                                        " in casa. \u00c8 per questo che oggi vi porto ",
+                                        {
+                                                "non_term": "nome_di_prodotto"
+                                        },
+                                        "."
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "Se mi seguite sui social avrete sicuramente notato che sono successe un sacco di cose negli ultimi tre mesi: dopo immense fatiche posso finalmente presentarvi il mio nuovo ",
+                                        {
+                                                "non_term": "tipo_di_prodotto"
+                                        },
+                                        ". Il suo nome sar\u00e0: ",
+                                        {
+                                                "non_term": "nome_di_prodotto"
+                                        },
+                                        "."
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "Sono fiero di annunciare al mondo che ormai sono un programmatore professionista. Assieme ad un team ",
+                                        {
+                                                "non_term": "nazionalita_M"
+                                        },
+                                        " ho sviluppato ",
+                                        {
+                                                "non_term": "nome_di_prodotto"
+                                        },
+                                        "."
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        {
+                                                "non_term": "nome_di_prodotto"
+                                        },
+                                        " esce finalmente dalla Beta"
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "In futuro ci saranno miliardi di dispositivi IoT: \u00e8 con questo in mente che ho creato ",
+                                        {
+                                                "non_term": "nome_di_prodotto"
+                                        },
+                                        "."
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "Per cogliere al volo l'opportunit\u00e0 creata dalle tecnologie ",
+                                        {
+                                                "non_term": "buzzword"
+                                        },
+                                        " ho deciso di lanciarmi nella produzione di un ",
+                                        {
+                                                "non_term": "tipo_di_prodotto"
+                                        },
+                                        "."
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "\u00c8 arrivato il nuovo update di ",
+                                        {
+                                                "non_term": "nome_di_prodotto"
+                                        },
+                                        ". Sono state aggiunte molte nuove features come, per esempio: ",
+                                        {
+                                                "non_term": "feature"
+                                        },
+                                        " e ",
+                                        {
+                                                "non_term": "feature"
+                                        },
+                                        "."
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "\u00c8 stato un anno veramente folle per me: ho raggiunto i miei obiettivi e sono finalmente riuscito a produrre ",
+                                        {
+                                                "non_term": "nome_di_prodotto"
+                                        },
+                                        "."
+                                ],
+                                "type": "nonfinal"
+                        }
+                ],
+                "Cont": [
+                        {
+                                "production": [
+                                        "Non esiste momento della mia vita in cui sono stato pi\u00f9 orgoglioso del mio lavoro e dei sacrifici che ho dovuto fare come adesso."
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "\u00c8 un progetto che era nella mia testa da anni e anni e vederlo finalmente completo \u00e8 un sogno che si realizza."
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        {
+                                                "non_term": "persona"
+                                        },
+                                        " mi diceva sempre che ",
+                                        {
+                                                "non_term": "opinione"
+                                        },
+                                        ". Io ci ho creduto fino in fondo ed \u00e8 per questo che mi sono imbarcato in questa avventura."
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "\u00c8 uno dei momenti pi\u00f9 emozionanti della mia carriera"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "\u00c8 il momento di affrontare il destino e affrontare il futuro: questo \u00e8 il mio lavoro."
+                                ],
+                                "type": "final"
+                        }
+                ],
+                "Finale": [
+                        {
+                                "production": [
+                                        "Sar\u00e0 un'evento epocale che marcher\u00e0 definitivamente l'inizio della mia carriera."
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Comincia cos\u00ec un nuovo ecosistema di progetti."
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Leggi di pi\u00f9 sul mio sito web www.fulviorafuffa.com."
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Questo progetto sar\u00e0 la nuova ",
+                                        {
+                                                "non_term": "buzzword"
+                                        },
+                                        "."
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "La presentazione del progetto si svolger\u00e0 ",
+                                        {
+                                                "non_term": "luogo"
+                                        },
+                                        "."
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "Diamo vita al nuovo mondo del lavoro."
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        {
+                                                "non_term": "persona"
+                                        },
+                                        ", che ha provato il nostro prodotto dice: ",
+                                        {
+                                                "non_term": "commento"
+                                        },
+                                        "."
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "Ora disponibile su ",
+                                        {
+                                                "non_term": "piattaforma"
+                                        },
+                                        "."
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "Ci\u00f2 che contraddistingue questo progetto \u00e8 la sua ",
+                                        {
+                                                "non_term": "qualita"
+                                        },
+                                        "."
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "Voglio portare il mio lavoro ovunque, senza escludere alcuna piattaforma."
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Il futuro \u00e8 gi\u00e0 qui."
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Il futuro \u00e8 a portata di mano."
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Di mese in mese i miei guadagni aumentano ed \u00e8 tutto grazie a voi."
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Con questo posso dire di avere gi\u00e0 praticamente un piede nel mondo del laovoro"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Fidatevi, lo show \u00e8 solamente iniziato"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Si aprono le danze del cambiamento anche a livello personale"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Nei prossimi mesi avr\u00f2 importantissime chance di raggiungere nuovi obiettivi"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Oggi inizio a costruirmi il mio futuro"
+                                ],
+                                "type": "final"
+                        }
+                ],
+                "feature": [
+                        {
+                                "production": [
+                                        {
+                                                "non_term": "numero"
+                                        },
+                                        " nuove skin"
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "integrazione con ",
+                                        {
+                                                "non_term": "nome_di_prodotto"
+                                        }
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "disponibilit\u00e0 su ",
+                                        {
+                                                "non_term": "piattaforma"
+                                        }
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        {
+                                                "non_term": "numero"
+                                        },
+                                        " nuovi achievement"
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        {
+                                                "non_term": "numero"
+                                        },
+                                        " nuove mappe"
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "modalit\u00e0 multiplayer"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "campagna singleplayer"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "supporto per touchscreen"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        {
+                                                "non_term": "numero"
+                                        },
+                                        " nuovi server in ",
+                                        {
+                                                "non_term": "nazione"
+                                        }
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "portabilit\u00e0"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "grafiche migliorate"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "traduzione in ",
+                                        {
+                                                "non_term": "nazionalita_M"
+                                        }
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "disponibilit\u00e0 sull'App Store ",
+                                        {
+                                                "non_term": "nazionalita_M"
+                                        }
+                                ],
+                                "type": "nonfinal"
+                        }
+                ],
+                "numero": [
+                        {
+                                "production": [
+                                        "1"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "2"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "3"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "4"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "5"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "6"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "7"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "8"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "9"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "10"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "42"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "69"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "420"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "70"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "77"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "1024"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "2 milioni"
+                                ],
+                                "type": "final"
+                        }
+                ],
+                "tipo_di_prodotto": [
+                        {
+                                "production": [
+                                        {
+                                                "non_term": "tipo_di_prodotto_M"
+                                        }
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        {
+                                                "non_term": "tipo_di_prodotto_F"
+                                        }
+                                ],
+                                "type": "nonfinal"
+                        }
+                ],
+                "tipo_di_prodotto_M": [
+                        {
+                                "production": [
+                                        "videogioco"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "sistema operativo"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "servizio di consulenza"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "sistema di computazione quantistica"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "assistente personale"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "dildo"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Tamagotchi"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "meccanismo di inculamento mediante specchi e leve"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "metodo di studio approvato da ",
+                                        {
+                                                "non_term": "persona"
+                                        }
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "bot per ottenere pi\u00f9 like"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "video di Youtube"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "recensioni di prodotti"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "PCB"
+                                ],
+                                "type": "final"
+                        }
+                ],
+                "tipo_di_prodotto_F": [
+                        {
+                                "production": [
+                                        "un'esperienza vocale senza precedenti basata su ",
+                                        {
+                                                "non_term": "buzzword"
+                                        }
+                                ],
+                                "type": "nonfinal"
+                        }
+                ],
+                "azienda": [
+                        {
+                                "production": [
+                                        "PitService srl"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Megasoft"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Epple"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Parcometri srl"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Harness Agency"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "l'FBI"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "il governo ",
+                                        {
+                                                "non_term": "nazionalita_M"
+                                        }
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "la mia ragazza (che esiste, \u00e8 proprio vera, in carne ed ossa, aspetta che la taggo)"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "i bot di Instagram"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Marco Zuccherbergo"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Fesbuch"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Ora.Vai"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "la lobby LGBTQ+"
+                                ],
+                                "type": "final"
+                        }
+                ],
+                "nazione": [
+                        {
+                                "production": [
+                                        "America"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Italia"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Nuova Zelanda"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Sudafrica"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Thailandia"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "San Marino"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Australia"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Svizzera"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Francia"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Regno Unito"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Irlandia"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Scozia"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Spagna"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Germania"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Belgio"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Polonia"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Grecia"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Russia"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Norvegia"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Finlandia"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Danimarca"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Olanda"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Canada"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Giappone"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "India"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Brasile"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Messico"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Arabia Saudita"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Romania"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Egitto"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Turchia"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Ungheria"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Argentina"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Albania"
+                                ],
+                                "type": "final"
+                        }
+                ],
+                "nazionalita": [
+                        {
+                                "production": [
+                                        {
+                                                "non_term": "nazionalita_M"
+                                        }
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        {
+                                                "non_term": "nazionalita_F"
+                                        }
+                                ],
+                                "type": "nonfinal"
+                        }
+                ],
+                "nazionalita_M": [
+                        {
+                                "production": [
+                                        "Americano"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Italiano"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Neo-Zelandese"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Sudafricano"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Thailandese"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "San Marinese"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Australiano"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Svizzero"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Francese"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Inglese"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Irlandese"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Scozzese"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Spagnolo"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Tedesco"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Belga"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Polacco"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Greco"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Russo"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Norvegese"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Finlandese"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Danese"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Olandese"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Canadese"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Giapponese"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Indiano"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Brasiliano"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Messicano"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Arabo"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Rumeno"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Egiziano"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Turco"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Ungherese"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Argentino"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Albanese"
+                                ],
+                                "type": "final"
+                        }
+                ],
+                "nazionalita_F": [
+                        {
+                                "production": [
+                                        "Americana"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Italiana"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Neo-Zelandese"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Sudafricana"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Thailandese"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "San Marinese"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Australiana"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Svizzera"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Francese"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Inglese"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Irlandese"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Scozzese"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Spagnola"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Tedesca"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Belga"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Polacca"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Greca"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Russa"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Norvegese"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Finlandese"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Danese"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Olandese"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Canadese"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Giapponese"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Indiana"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Brasiliana"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Messicana"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Araba"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Rumena"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Egiziana"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Turca"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Ungherese"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Argentina"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Albanese"
+                                ],
+                                "type": "final"
+                        }
+                ],
+                "nome_di_prodotto": [
+                        {
+                                "production": [
+                                        "Fear of ",
+                                        {
+                                                "non_term": "oggetto"
+                                        }
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        {
+                                                "non_term": "oggetto"
+                                        },
+                                        " Explorer"
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "MyMirror"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "My",
+                                        {
+                                                "non_term": "oggetto"
+                                        }
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "4Q"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "i",
+                                        {
+                                                "non_term": "oggetto"
+                                        }
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "ProBattaglia"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Surfeis"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        {
+                                                "non_term": "oggetto"
+                                        },
+                                        " Finder"
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "Alecsa"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        {
+                                                "non_term": "oggetto"
+                                        },
+                                        "-killer"
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        {
+                                                "non_term": "oggetto"
+                                        },
+                                        "Shack"
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        {
+                                                "non_term": "oggetto"
+                                        },
+                                        "-9000"
+                                ],
+                                "type": "nonfinal"
+                        }
+                ],
+                "oggetto": [
+                        {
+                                "production": [
+                                        {
+                                                "non_term": "oggetto_M"
+                                        }
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        {
+                                                "non_term": "oggetto_F"
+                                        }
+                                ],
+                                "type": "nonfinal"
+                        }
+                ],
+                "oggetto_M": [
+                        {
+                                "production": [
+                                        "tablet"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "cellulare"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "computer"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "frigorifero smart"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        {
+                                                "non_term": "oggetto"
+                                        },
+                                        "-coin"
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "mouse"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "traffic"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "orologio"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "sistema di automazione"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "poster"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "notebook"
+                                ],
+                                "type": "final"
+                        }
+                ],
+                "oggetto_F": [
+                        {
+                                "production": [
+                                        "aforisma"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "foto"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "motocicletta"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "automobile con guida automatica"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "innovazione"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "chat"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "accessibilit\u00e0"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "visuale"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "chiave"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "noia"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "agenda"
+                                ],
+                                "type": "final"
+                        }
+                ],
+                "qualita": [
+                        {
+                                "production": [
+                                        "caparbiet\u00e0"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "innovazione"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "efficacia"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "enorme potenzialit\u00e0 per diventare una disruptive technology"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "abilit\u00e0 di passare senza modifiche da ",
+                                        {
+                                                "non_term": "piattaforma"
+                                        },
+                                        " a ",
+                                        {
+                                                "non_term": "piattaforma"
+                                        }
+                                ],
+                                "type": "nonfinal"
+                        }
+                ],
+                "buzzword": [
+                        {
+                                "production": [
+                                        {
+                                                "non_term": "buzzword_M"
+                                        }
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        {
+                                                "non_term": "buzzword_F"
+                                        }
+                                ],
+                                "type": "nonfinal"
+                        }
+                ],
+                "buzzword_M": [
+                        {
+                                "production": [
+                                        "machine learning"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Internet Of Things"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Software Defined Networking"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "social engineering"
+                                ],
+                                "type": "final"
+                        }
+                ],
+                "buzzword_F": [
+                        {
+                                "production": [
+                                        "blockchain"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "industria 4.0"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "interazione uomo-macchina"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "soft skills"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "trasformazione digitale"
+                                ],
+                                "type": "final"
+                        }
+                ],
+                "piattaforma": [
+                        {
+                                "production": [
+                                        "XBox"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Windows XP"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Windows 98"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "iOS"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Android"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "ogni microonde della Razer"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Arch Linux"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        {
+                                                "non_term": "oggetto"
+                                        },
+                                        "OS"
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "Alexa"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Facebook"
+                                ],
+                                "type": "final"
+                        }
+                ],
+                "luogo": [
+                        {
+                                "production": [
+                                        "in L26"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "in aula Natta"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "a casa di Pit a Bee"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "nell'ufficio del rettore"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "proprio a casa tua!"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "a casa Paso"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "negli uffici di Hermes Agency"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "nella S.0.2"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "a Bovisa"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "nel polo di Mantova"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "nei bagni pubblici"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "in piazza Leo"
+                                ],
+                                "type": "final"
+                        }
+                ],
+                "persona": [
+                        {
+                                "production": [
+                                        "Paso"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Kien"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Gio"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Dario"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Davide"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Letizia"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Giammy"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Massimo"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Pit"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Ari"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Dani"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Luca"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Vittorino Pata"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Roberto Lucchetti"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Giuseppe della Valle"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Alessandra Cherubini"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Achille Frigeri"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Marco Ugo Claudio Boella"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Ferruccio Resta"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Taylor Swift"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "il figlio del Dr. Occhinegro"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Katy Perry"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Barack Obama"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Giulio Eugenio Cesare"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Giorgia Meloni"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Edoardo Saputelli"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Matteo Salvini"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Satteo Malvini"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Marco Montemagno"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Celine Dior"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "un mio collega di Hermes Agency"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "un cliente di Hermes Agency"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "un mio cliente"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "il mio commercialista"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Mussolini"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Stalin"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Donald Trump"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Lenin"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Kim Jong Un"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Mao Tse Tung"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "tua sorella"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "Elon Musk"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "il CEO di ",
+                                        {
+                                                "non_term": "azienda"
+                                        }
+                                ],
+                                "type": "nonfinal"
+                        }
+                ],
+                "commento": [
+                        {
+                                "production": [
+                                        "\"10/10 IGN\""
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "\"Boh era gratis\""
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "\"Mi hanno pagato per dire che era una figata\""
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "\"Ci sta\""
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "\"Il buffet era buono\""
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "\"Estremamente intrigante\""
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "\"Ososo\""
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "\"Nel complesso il prodotto si presenta variegato, ma il comparto audiovisivo \u00e8 indubbiamente penoso\""
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "\"Tutti i giornali ne parlavano bene, tranne Libero\""
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "\"Mi ricorda un sacco la mia infanzia\""
+                                ],
+                                "type": "final"
+                        }
+                ],
+                "opinione": [
+                        {
+                                "production": [
+                                        "ho la testa ",
+                                        {
+                                                "non_term": "forma_geometrica_F"
+                                        }
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "non ci sono pi\u00f9 le mezze stagioni"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "esistono dei formalismi pi\u00f9 potenti delle Macchine di Turing"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "la Terra \u00e8 ",
+                                        {
+                                                "non_term": "forma_geometrica_F"
+                                        }
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "sembro un po' ",
+                                        {
+                                                "non_term": "persona"
+                                        }
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "gli ricordo ",
+                                        {
+                                                "non_term": "persona"
+                                        },
+                                        " quando era giovane"
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "quando ci sar\u00e0 la ",
+                                        {
+                                                "non_term": "buzzword_F"
+                                        },
+                                        " il mondo sar\u00e0 un posto molto diverso da come lo viviamo"
+                                ],
+                                "type": "nonfinal"
+                        }
+                ],
+                "forma_geometrica_F": [
+                        {
+                                "production": [
+                                        "quadrata"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "a striscia di Mobius"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "ottagonale"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "a forma di ",
+                                        {
+                                                "non_term": "oggetto"
+                                        }
+                                ],
+                                "type": "nonfinal"
+                        },
+                        {
+                                "production": [
+                                        "ovale"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "sferica"
+                                ],
+                                "type": "final"
+                        },
+                        {
+                                "production": [
+                                        "piatta"
+                                ],
+                                "type": "final"
+                        }
+                ]
+        }
+}
