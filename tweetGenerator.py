@@ -12,7 +12,7 @@ import random
 from math import exp
 
 #Set here the file from which the grammar productions are loaded
-RULES_FILE = "customrules/fulvio2.json"
+RULES_FILE = "rules.json"
 
 #Some constants
 MAX_LENGTH = 300
